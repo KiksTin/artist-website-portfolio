@@ -13,15 +13,15 @@
 
 @font-face {
     font-family: 'YoungSerif-Bold';
-    src: url('fonts/youngserif/YoungSerif-Bold.ttf') format('truetype');
+    src: url('./fonts/youngserif/YoungSerif-Bold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'YoungSerif-Light';
-    src: url('fonts/youngserif/YoungSerif-Light.ttf') format('truetype');
+    src: url('./fonts/youngserif/YoungSerif-Light.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Figtree-Regular';
-    src: url('fonts/Figtree/Figtree-VariableFont_wght.ttf') format('truetype');
+    src: url('./fonts/Figtree/Figtree-VariableFont_wght.ttf') format('truetype');
 }
 
 @keyframes picAnimation {
