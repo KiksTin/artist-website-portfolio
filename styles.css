@@ -105,8 +105,13 @@ section{
     background-color: aquamarine;
     
     .gallery-contents{
+        position: absolute;
         width: 300px;
         height: 250px;
         background-color: antiquewhite;
+    }
+    .demo-pic{
+        height: 200px;
+        margin: 3px;
     }
 }
