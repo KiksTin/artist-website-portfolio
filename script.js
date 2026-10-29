@@ -1,14 +1,20 @@
-var data = {
-    "images": [{
-      "bannerImg1": "https://res.cloudinary.com/dskostzgy/image/upload/f_auto/q_auto/profile_pictures/fvuloh24acsjx6synkih.jpg",
-    },
-    {"bannerImg1" : "https://res.cloudinary.com/dskostzgy/image/upload/f_auto/q_auto/24e42b2e-2260-45c6-aaae-f6fcb258b6b1.png"
-    }]
-  };
-  data.images.forEach( function(obj) {
+
+for(let n = 0; n<=11; n++){
+  async function loadJSON(){
+    const response = await fetch("works.json");
+    const image = await response.json();
     var img = new Image();
-    img.src = obj.bannerImg1;
+    img.src = image[n].layout;
     img.setAttribute("class", "demo-pic");
     img.setAttribute("alt", "effy");
+    myDisplayer(img);
+  }
+
+  loadJSON();
+  
+  function myDisplayer(img){
     document.getElementById("demo").appendChild(img);
-  });
+  }
+}
+
+  
