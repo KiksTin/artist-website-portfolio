@@ -20,15 +20,22 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding: 3px 30px;
     position: sticky;
     top: 20px;
     bottom: 20px;
     z-index: 50;
     background-color: var(--primary-accent);
-    width: 90%;
-    margin: 5%;
+    width: fit-content;
     height: 3.5rem;
     border-radius: 2.5rem;
+
+    .nav-button{
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+        cursor: pointer;
+    }
 }
 section{
     display: flex;
