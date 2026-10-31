@@ -1,4 +1,4 @@
-@media screen and (width<=630px) {
+@media screen and (max-width: 120vh) {
     main{
         margin: 0;
     }
@@ -6,11 +6,11 @@
         display: flex;
         flex-direction:column;
         height: calc(100dvh - 6rem);
-        width: 85%;
-        justify-self: center;
+        width: auto;
         padding:2rem;
-        margin: 0.3rem;
-       
+        right: 0;
+        left: 0;
+        margin: 0.3rem 0.7rem;     
     
         .section-title {
             font-family: var(--title-font);
@@ -19,17 +19,14 @@
             margin: 1rem 0;
         }
     }
-
     .nav-bar{
-        justify-self:center;
         position: fixed;
         bottom: 0px;
         top:auto;
-
     }
 
     .a-content{
-        flex: 1;
+        height: 85%;
         display: flex;
         flex-direction: column;
         gap:0rem;
