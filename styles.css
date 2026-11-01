@@ -51,6 +51,12 @@ section{
         color: var(--primary-accent);
         margin: 1rem 0;
     }
+     header{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 1rem;
+     }
 }
 
 .about-section{
