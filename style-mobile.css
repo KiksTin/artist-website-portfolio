@@ -20,13 +20,13 @@
     }
     .nav-bar{
         position: fixed;
-        bottom: 3rem;
+        bottom: 0.3rem;
         top:auto;
 
         .nav-button{
-            width: 7rem;
-            height: 7rem;
-            margin: 2rem;
+            width: 3.2rem;
+            height: 3.2rem;
+            margin: 0.5rem;
         }
     }
 
@@ -54,15 +54,15 @@
         height: relative;
     }
     .intro{
-        height: 30%;
+        height: 20%;
         align-items: center;
         gap: -1rem;
 
         h2{
-            font-size: 7rem;
+            font-size: 2rem;
         }
         p{
-            font-size: 3rem;
+            font-size: 1rem;
         }
     }
    
