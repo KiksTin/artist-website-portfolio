@@ -1,4 +1,4 @@
-@media screen and (width: 50vh) {
+@media screen and (width <50em) {
     main{
         margin: 0;
     }
