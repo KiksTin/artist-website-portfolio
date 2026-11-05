@@ -1,4 +1,4 @@
-@media screen and (width <50em) {
+@media screen and (width < 600px) {
     main{
         margin: 0;
     }
